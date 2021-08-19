@@ -1,6 +1,6 @@
 using System;
 
-namespace Testapi
+namespace HotelListing
 {
     public class WeatherForecast
     {
