@@ -45,6 +45,7 @@ namespace HotelListing
                     .AllowAnyHeader()
                 );
             });
+
             services.AddAutoMapper(typeof(MapperInitializer));
 
             services.AddSwaggerGen(c =>
