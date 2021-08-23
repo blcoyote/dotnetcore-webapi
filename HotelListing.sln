@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testapi", "Testapi\Testapi.csproj", "{84FDACA3-E6D7-43BC-8E85-DA5F4A720057}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelListing", "Testapi\HotelListing.csproj", "{84FDACA3-E6D7-43BC-8E85-DA5F4A720057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

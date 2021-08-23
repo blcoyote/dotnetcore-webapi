@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Testapi.Controllers
+namespace HotelListing.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -26,6 +26,7 @@ namespace Testapi.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogInformation("Accced Weather Forecast");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
