@@ -21,7 +21,7 @@ namespace HotelListing.Controllers
 		private readonly ILogger<AccountController> _logger;
 		private readonly IMapper _mapper;
 
-		public AccountController(UserManager<ApiUser> userManager, SignInManager<ApiUser> signInManager, ILogger<HotelController> logger, IMapper mapper)
+		public AccountController(UserManager<ApiUser> userManager, SignInManager<ApiUser> signInManager, ILogger<AccountController> logger, IMapper mapper)
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;
