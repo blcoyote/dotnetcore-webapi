@@ -11,7 +11,7 @@ namespace HotelListing.Data
     public class DatabaseContext : IdentityDbContext<ApiUser>
     {
         public DatabaseContext(DbContextOptions options) : base(options)
-        { }
+        {}
 
         public DbSet<Country> Countries { get; set; }
         public DbSet<Hotel> Hotels { get; set; }
