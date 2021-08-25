@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 using HotelListing.Configurations;
 using HotelListing.IRepository;
 using HotelListing.Repository;
+using Microsoft.AspNetCore.Identity;
 
 namespace HotelListing
 {
@@ -39,6 +40,9 @@ namespace HotelListing
                 )
             );
 
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            
             services.AddCors(c => 
             {
                 c.AddPolicy("AllowAll", builder => 
